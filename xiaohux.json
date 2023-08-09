@@ -1,0 +1,13 @@
+{
+    "name": "xiaohua task",
+    "description": "xiaohua任务",
+    "task": [
+        "9 9 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Movie.js, tag=热映电影, img-url=film.system,enabled=true",
+
+        "12 12 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Youjia.js, tag=今日油价, img-url=car.fill.system,enabled=true",
+
+        "13 13 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Today.js,tag=历史上的今天, img-url=calendar.system,enabled=true",
+
+        "20 20 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Wyy.js,tag=网易云热歌榜, img-url=headphones.system,enabled=true",
+    ]
+}
