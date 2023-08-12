@@ -39,7 +39,7 @@
 ^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
 
 # > 会员解锁重写
-^https?:\/\/.*\.xima.*\.com\/(mobile-playpage/track/v3/baseInfo|mobile/v1/album/track|mobile/v1/album/detail|mobile-album/album/page|mobile/album/paid/info|mobile-playpage/playpage/tabs|product/detail/v1/basicInfo/dynamic) url script-request-header ximalaya.vip.demo.js
+^https?:\/\/.*\.xima.*\.com\/(mobile-playpage/track/v3/baseInfo|mobile/v1/album/track|mobile/v1/album/detail|mobile-album/album/page|mobile/album/paid/info|mobile-playpage/playpage/tabs|product/detail/v1/basicInfo/dynamic) url script-request-header https://raw.githubusercontent.com/8457yin/quanxx/main/ximalaya.vip.demo.js
 
 [mitm]
 
