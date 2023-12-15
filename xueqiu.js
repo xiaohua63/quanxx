@@ -7,9 +7,9 @@ hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,dan
 
 
 [URL Rewrite]
-^https:\/\/api\.xueqiu\.com\/query\/v1\/symbol\/search\/status\.json\？ url reject-dict
+^https:\/\/api\.xueqiu\.com\/query\/v1\/symbol\/search\/status\.json\? url reject-dict
 
-^https:\/\/api\.xueqiu\.com\/v4\/statuses\/public_timeline_by_category\.json\？ url reject-dict
+^https:\/\/api\.xueqiu\.com\/v4\/statuses\/public_timeline_by_category\.json\? url reject-dict
 
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ - reject-200
 
