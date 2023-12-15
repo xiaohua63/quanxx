@@ -23,3 +23,5 @@ hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,dan
 
 ^https:\/\/assets\.imedao\.com\/broker\/static\/js\/open url reject-dict
 
+^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content url reject-dict
+
