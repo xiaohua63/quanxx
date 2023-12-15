@@ -11,7 +11,7 @@ hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,dan
 
 ^https:\/\/api\.xueqiu\.com\/v4\/statuses\/public_timeline_by_category\.json url reject-dict
 
-^https:\/\/xqimg\.imedao\.com url reject-dict
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ - reject-200
 
 ^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/zj_card\.json url reject-dict
 
@@ -22,3 +22,4 @@ hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,dan
 ^https:\/\/danjuanfunds\.com\/n\/activity\/fund-sku\/yy_gqzt url reject-dict
 
 ^https:\/\/assets\.imedao\.com\/broker\/static\/js\/open url reject-dict
+
