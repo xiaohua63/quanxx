@@ -2,11 +2,14 @@
 
 [MITM]
 
-hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,danjuanfunds.com
+hostname = %APPEND% api.xueqiu.com,
+xqimg.imedao.com, 101.201.62.20, 101.201.62.22,danjuanfunds.com
 
 
 
 [URL Rewrite]
+# 开屏
+^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? url reject
 # 热门推荐
 ^https:\/\/api\.xueqiu\.com\/statuses\/livenews\/mark\/list\.json\? url reject
 ^https:\/\/api\.xueqiu\.com\/snowflake-theme\/query\/v1\/hot_event\/rich_tag_new\.json\? url reject
