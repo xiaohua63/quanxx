@@ -1,0 +1,9 @@
+#!小花 雪球去广告自定义
+
+[MITM]
+
+hostname = %APPEND% *.xueqiu.com, xqimg.imedao.com, 101.201.62.20, 101.201.62.22
+
+
+
+[URL Rewrite]
