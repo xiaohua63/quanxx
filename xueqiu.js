@@ -24,11 +24,14 @@ hostname = %APPEND% *.xueqiu.com, *.imedao.com, 101.201.62.20, 101.201.62.22,dan
 ^https:\/\/assets\.imedao\.com\/broker\/static\/js\/open url reject-dict
 
 ^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content url reject-dict
-# 别人的，我没抓到
-# 雪球热门推荐
+
+
+
+
 ^https:\/\/api\.xueqiu\.com\/statuses\/livenews\/mark\/list\.json\? url reject
 ^https:\/\/api\.xueqiu\.com\/snowflake-theme\/query\/v1\/hot_event\/rich_tag_new\.json\? url reject
-# 雪球广告
+
+
 ^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/zj_card\.json\? url reject
 ^https:\/\/api\.xueqiu\.com\/analysis\/build_union\/dialog\/show\.json\? url reject
 ^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\? url reject
