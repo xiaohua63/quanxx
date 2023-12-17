@@ -8,7 +8,7 @@ var obj = JSON.parse(body);
 const vip = '/cms/Appapi/username/username';
 
 if (url.indexOf(vip) != -1) {
-    obj.point= 999999;
+    obj.data.giveMember= true;
  
     body = JSON.stringify(obj);
 }
