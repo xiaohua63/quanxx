@@ -37,3 +37,4 @@ hostname = %APPEND% api.xueqiu.com, xqimg.imedao.com, 101.201.62.20, 101.201.62.
 ^https?:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batchGetUserBasicInfo.json - reject-dict
 ^https?:\/\/api\.xueqiu\.com\/lightsnow\/launch\/plan\/bee\/query.json - reject-dict
 ^https?:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batch_get_profile_image\.json - reject-dict
+^https:\/\/api\.xueqiu\.com\/private_fund\/build_united_container\/copywriter\.json url reject-array
