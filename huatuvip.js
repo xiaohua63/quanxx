@@ -3,6 +3,7 @@
 
 [rewrite_local]
 ^https:\/\/ns\.huatu\.com\/u\/v3\/member\/user url script-response-body https://raw.githubusercontent.com/8457yin/quanxx/main/huatuvip.js
+hostname = ns.huatu.com
 */
 
 
