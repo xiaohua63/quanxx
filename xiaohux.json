@@ -9,5 +9,6 @@
         "13 13 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Today.js,tag=历史上的今天, img-url=calendar.system,enabled=true",
 
         "20 20 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/Wyy.js,tag=网易云热歌榜, img-url=headphones.system,enabled=true",
+         "00 10 * * * https://raw.githubusercontent.com/8457yin/quanxx/main/bwcj.js,tag=霸王茶姬签到, img-url=headphones.system,enabled=true",
     ]
 }
