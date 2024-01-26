@@ -17,3 +17,6 @@ hostname=ns.huatu.com,ocfapi.huatu.com
 ^https:\/\/ns\.huatu\.com\/u\/v6\/users\/bc\/homeOperation url reject-dict
 #主页视频弹窗
 ^https:\/\/ocfapi\.huatu\.com\/api\/user\/get_online_app_red_dot url reject-dict
+#打开出现的图片
+^https:\/\/ns\.huatu\.com\/u\/v5\/users\/bc\/popup url reject-dict
+
