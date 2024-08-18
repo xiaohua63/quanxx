@@ -5,6 +5,17 @@
  */
 
 // 获取请求头中的 Cookie 并保存到 Loon 的持久化存储中
+
+
+[Rewrite]
+# 拦截一汽奥迪的登录请求并保存 Cookie
+^https:\/\/api\.audi\.com\/v1\/xx\/signin url script-request-header https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
+
+[Script]
+# 签到脚本，可以定时触发，也可以手动触发
+cron "30 8 * * *" script-path=https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
+
+
 if ($request && $request.headers) {
     let cookie = $request.headers['Cookie'] || $request.headers['cookie'];
     if (cookie) {
