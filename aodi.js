@@ -8,11 +8,9 @@
 
 
 [Rewrite]
-# 拦截一汽奥迪的登录请求并保存 Cookie
 ^https:\/\/api\.audi\.com\/v1\/xx\/signin url script-request-header https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
 
 [Script]
-# 签到脚本，可以定时触发，也可以手动触发
 cron "30 8 * * *" script-path=https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
 
 
