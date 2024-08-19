@@ -7,11 +7,11 @@
 // 获取请求头中的 Cookie 并保存到 Loon 的持久化存储中
 
 
-[Rewrite]
+[rewrite_local]
 ^https:\/\/api\.audi\.com\/v1\/xx\/signin url script-request-header https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
 
-[Script]
-cron "30 8 * * *" script-path=https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js
+[task_local]
+cron "30 8 * * *" https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js, tag=一汽奥迪积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
 
 
 if ($request && $request.headers) {
