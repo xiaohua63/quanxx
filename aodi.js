@@ -13,6 +13,8 @@
 [task_local]
 cron "30 8 * * *" https://raw.githubusercontent.com/xiaohua63/quanxx/main/aodi.js, tag=一汽奥迪积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=true
 
+[mitm]
+hostname = api.audi.com
 
 if ($request && $request.headers) {
     let cookie = $request.headers['Cookie'] || $request.headers['cookie'];
