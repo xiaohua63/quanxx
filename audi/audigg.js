@@ -10,6 +10,8 @@
 
 
 [Rewrite]
+# 开屏广告
+^https:\/\/audi2c\.faw-vw\.com\/capi\/v1\/loading_page\/get reject-dict
 
 [Mitm]
-hostname = 
+hostname = audi2c.faw-vw.com
