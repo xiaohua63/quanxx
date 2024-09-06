@@ -2,7 +2,7 @@
 #!desc = 移除主页内广告。
 #!author = 小花🅥[https://github.com/xiaohua63/quanxx/main/README.md]
 #!tag = 去广告
-#!icon = https://raw.githubusercontent.com/xiaohua63/quanxx/main/app_icon/wxb.png
+#!icon = https://raw.githubusercontent.com/xiaohua63/quanxx/main/app_icon/wxb.PNG
 #!date = 2024-08-19 16:50:06
 
 [Rule]
