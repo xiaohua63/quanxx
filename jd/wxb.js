@@ -12,6 +12,7 @@
 [Rewrite]
 # 主页内广告
 ^https:\/\/router-app-api\.jdcloud\.com\/v1\/regions\/cn-north-1\/unifierQuery reject-dict
+^https:\/\/router-app-api\.jdcloud\.com\/v1\/regions\/cn-north-1\/bannerHorseRaceLamp reject-dict
 
 [mitm] 
 hostname = router-app-api.jdcloud.com
