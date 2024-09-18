@@ -1,0 +1,13 @@
+#!name = Telegram DC
+#!desc = 电报数据中心分流。
+#!author = 小花🅥[https://github.com/xiaohua63/quanxx/main/README.md]
+#!date = 2024-09-18
+
+[Rule]
+IP-ASN, 62014, 新国时延优选
+IP-ASN, 62041, 香港时延优选
+IP-ASN, 44907, 香港时延优选
+IP-ASN, 59930, 美国时延优选
+IP-ASN, 211157, 美国时延优选
+IP-CIDR, 5.28.192.0/18, 香港时延优选, no-resolve
+IP-CIDR, 109.239.140.0/24, 香港时延优选, no-resolve
