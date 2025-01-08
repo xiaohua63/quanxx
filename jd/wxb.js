@@ -4,7 +4,7 @@
 #!tag = 去广告
 #!icon = https://raw.githubusercontent.com/xiaohua63/quanxx/main/app_icon/wxb.PNG
 #!date = 2024-11-20 16:50:06
-#!category=xiaohua
+#!category=小花
 
 [Rule]
 # 拦截HTTPDNS
