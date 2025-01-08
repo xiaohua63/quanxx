@@ -14,5 +14,5 @@
 # 开屏广告
 ^https:\/\/audi2c\.faw-vw\.com\/capi\/v1\/loading_page\/get - reject
 
-[Mitm]
+[MITM]
 hostname = %APPEND% audi2c.faw-vw.com
